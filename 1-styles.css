@@ -4,7 +4,7 @@ body {
     color: white;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: x-small;
+    font-size: 1.5rex;
    
 }
 .header-section {
@@ -37,6 +37,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 2rex;
   }
   
    
@@ -112,12 +113,12 @@ nav ul li a {
   background-color: white;
   color: black;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: x-small;
+  font-size: 1.8rex;
   flex-wrap: wrap;
 }
 
 .what-we-do .text2 {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 300px;
     margin-right: 300px;
 }
@@ -125,7 +126,7 @@ nav ul li a {
 .icons {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 200px;
     margin-right: 150px;
 }

@@ -1,8 +1,10 @@
 body {
     background-image: url("images/headphones_hero_1.jpg");
-    background-size: cover;
+    object-fit: cover;
     color: white;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rex;
    
 }
 .header-section {
@@ -50,11 +52,14 @@ nav ul li a {
 
 
 .hero-section {
-    margin-top: 220px;
+    margin-top: 300px;
     margin-left: 300px;
     margin-right: 300px;
+    margin-bottom: 50px;
 
 }
+
+
   
 .button {
     background-color: #FF6565;
@@ -62,10 +67,12 @@ nav ul li a {
     color: white;
     height: 30px;
     width: 130px;
+    margin-top: 30px;
 }
 
 .paragraph-main {
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .header-section.logo{
@@ -96,9 +103,64 @@ nav ul li a {
     }
     
 }
+  
+  
+  
+  /* what we do */
 
+.what-we-do {
+  display: flex;  
+  background-color: white;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.8rex;
+  flex-wrap: wrap;
+}
 
-  
-  
-  
-  
+.what-we-do .text2 {
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+/*Our results section*/
+.our-results {
+    background-image: url("images/headphones_hero_2.jpg");
+    object-fit: cover;
+}
+
+.pentagone {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    
+}
+
+.pentagone img {
+    
+   
+}
+
+.our-results .text3 {
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 130px;
+}
+
+.text3 h2{
+    margin-bottom: 40px;
+}
