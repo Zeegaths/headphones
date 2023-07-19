@@ -51,6 +51,9 @@ nav ul li a {
   }
   .text2 h2:hover {
     color: purple;
+  } 
+  .text3 p:hover {
+   color: aqua;
   }
 
 
