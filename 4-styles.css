@@ -192,3 +192,25 @@ nav ul li a {
 
  }
  
+
+ /*Footer*/
+ .footer-section {
+    background-color: #071629;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+   
+ }
+
+ .footer {
+    display: flex;
+    justify-content: space-between;     
+    margin: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+ }
+
+
+.footer-text {
+    padding-top: 40px;
+}
