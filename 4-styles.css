@@ -101,7 +101,15 @@ nav ul li a {
     .small-screen {
         display: block;
     }
-    
+    .what-we-do{
+        flex-direction: column;
+    }
+    .text3, .pentagone {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
+    }
 }
   
   
