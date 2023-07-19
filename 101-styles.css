@@ -49,7 +49,9 @@ nav ul li a {
   .button:hover {
     opacity: 0.9;
   }
- 
+  .text2 h2:hover {
+    color: purple;
+  }
 
 
 .hero-section {
